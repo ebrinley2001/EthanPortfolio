@@ -1,0 +1,31 @@
+﻿.ResumeText {
+    grid-column: 1 / span 2;
+    padding: 100px 0px 0px 50px;
+}
+
+.ResumeTextBracket {
+    grid-column: 1;
+    padding: 5px 0px 0px 50px;
+}
+.ResumeTextBracketClose {
+    grid-column: 1;
+    padding: 5px 0px 0px 100px;
+}
+
+.ResumeTextProps {
+    grid-column: 1 / span 4;
+    padding: 10px 0px 5px 150px;
+}
+
+.VerticalList {
+    grid-column:1 / span 2;
+    list-style: none;
+}
+
+.VerticalListItem::before {
+    content: "\2022";
+    color: #9900FF;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
